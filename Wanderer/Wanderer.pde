@@ -14,6 +14,10 @@ void setup() {
 }
 
 void draw() {
+  //pick a random velocity
+  vel = PVector.random2D();
+  vel.mult(5);  
+
   //draw background to cover previous frame
   background(0);
 
